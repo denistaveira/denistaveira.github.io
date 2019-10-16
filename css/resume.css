@@ -93,6 +93,11 @@ p.lead {
   outline-color: #d48a6e;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -120,6 +125,7 @@ p.lead {
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
+    padding-top: 4rem !important;
   }
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
