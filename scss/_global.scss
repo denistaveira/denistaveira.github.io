@@ -42,6 +42,12 @@ p.lead {
   font-weight: 400;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -68,6 +74,14 @@ p.lead {
       background-color: $primary;
     }
   }
+}
+#sideNav .navbar-collapse {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 0;
+  width: 100%;
+  margin-bottom: auto;
+  padding-top: 4rem !important;
 }
 
 .dev-icons {
